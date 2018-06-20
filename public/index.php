@@ -9,6 +9,7 @@ require_once("$rootDir/fusion-theme/index.php");
 
 Core::Core()
 ->setPath([ 
+    "$rootDir/fusion-code/",
     "$rootDir/fusion-plugin/",
     "$rootDir/fusion-theme/",
     ]);
